@@ -96,5 +96,16 @@ If the intermediate outputs are not saved, please get the inference outputs firs
 
 
 -----------------------------------------------------------
+
+If you find this code helpful, please consider citing 
+```
+@inproceedings{DELSE2019,
+title={Object Instance Annotation with Deep Extreme Level Set Evolution},
+author={Zian Wang and David Acuna and Huan Ling and Amlan Kar and Sanja Fidler},
+booktitle={CVPR},
+year={2019}
+}
+```
+
 If you have questions with this code, please contact zianwang@cs.toronto.edu.
 We would like to thank [DEXTR](https://github.com/scaelles/DEXTR-PyTorch) for releasing their code. 
