@@ -23,6 +23,7 @@ The code was tested with Anaconda (Python 3.6) and PyTorch 0.4.1.
     ```
     conda install pytorch torchvision -c pytorch
     conda install matplotlib opencv pillow scikit-image
+    pip install tensorboard tensorboardx
     ```
   
 2. Download the pre-trained PSPNet model. 
