@@ -95,7 +95,7 @@ The parameters of settings are in main.py.
 Set the index of experiments and evaluation settings in eval\_multi.py (Line 14-18 in function param\_generateor). 
 Run ```python eval_multi.py``` for evaluation on your predicted results. 
 
-If the intermediate outputs are not saved, please get the inference outputs first with the test function in DELSE. 
+The model ckeckpoint on Cityscapes dataset can be found [here](http://www.cs.toronto.edu/~zianwang/share/delse/cityscapes_ckpt.pth). If the intermediate outputs are not saved, please get the inference outputs first with the test function in DELSE.py. 
 
 
 -----------------------------------------------------------
