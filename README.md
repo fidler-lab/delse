@@ -1,6 +1,8 @@
 # Deep Extreme Level Set Evolution (DELSE)
 
-This is the PyTorch implementation of DELSE model for object instance segmentation. This repository provides code to train and evaluate with DELSE. For details, please refer to:  
+This is the PyTorch implementation of DELSE model for object instance segmentation. This repository provides code to train and evaluate with DELSE. Please visit [this page](http://www.cs.toronto.edu/delse/code_signup/) to sign up and download the code. 
+
+For details, please refer to:  
 
 **Object Instance Annotation with Deep Extreme Level Set Evolution**  
 [Zian Wang](http://www.cs.toronto.edu/~zianwang/), [David Acuna](http://www.cs.toronto.edu/~davidj/)\*, [Huan Ling](http://www.cs.toronto.edu/~linghuan/)\*, [Amlan Kar](http://www.cs.toronto.edu/~amlan/), [Sanja Fidler](https://www.cs.utoronto.ca/~fidler/)
