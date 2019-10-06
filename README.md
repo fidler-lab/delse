@@ -1,8 +1,6 @@
 # Deep Extreme Level Set Evolution (DELSE)
 
-This is the PyTorch implementation of DELSE model for object instance segmentation. This repository provides code to train and evaluate with DELSE. Please visit [this page](http://www.cs.toronto.edu/delse/code_signup/) to sign up and download the code. 
-
-For details, please refer to:  
+This is the PyTorch implementation of DELSE model for object instance segmentation. This repository provides code to train and evaluate with DELSE. For details, please refer to:  
 
 **Object Instance Annotation with Deep Extreme Level Set Evolution**  
 [Zian Wang](http://www.cs.toronto.edu/~zianwang/), [David Acuna](http://www.cs.toronto.edu/~davidj/)\*, [Huan Ling](http://www.cs.toronto.edu/~linghuan/)\*, [Amlan Kar](http://www.cs.toronto.edu/~amlan/), [Sanja Fidler](https://www.cs.utoronto.ca/~fidler/)
@@ -13,9 +11,24 @@ For details, please refer to:
 
 <img src = "docs/model.png" width="80%"/>
 
+<!--
 *We revive the old ideas on level set segmentation which framed object annotation as curve evolution. The Level Set Method can handle objects with complex shapes and topological changes such as merging and splitting, thus able to deal with occluded objects and objects with holes. We propose Deep Extreme Level Set Evolution (DELSE) that combines powerful CNN models with level set optimization in an end-to-end fashion. Our method learns to predict evolution parameters conditioned on the image and evolves the predicted initial contour to produce the final result. Carefully designed energy functions ensured that the curve was well aligned with image boundaries, and generally "well behaved". Our model is interactive by incorporating user clicks on the extreme boundary points and allows further correction on erroneous boundary.*   
 (\* denotes equal contribution)    
 ----------------------- ------------------------------------
+-->
+
+## Where is the code?
+To get the code, please sign up [here](http://www.cs.toronto.edu/delse/code_signup/). We will be using GitHub to keep track of issues with the code and to update on availability of newer versions (also available on website and through e-mail to signed up users). 
+
+If you find this code helpful, please consider citing 
+
+	@inproceedings{DELSE2019,
+	title={Object Instance Annotation with Deep Extreme Level Set Evolution},
+	author={Zian Wang and David Acuna and Huan Ling and Amlan Kar and Sanja Fidler},
+	booktitle={CVPR},
+	year={2019}
+	}
+
 
 ## Installation
 The code was tested with Anaconda (Python 3.6) and PyTorch 0.4.1. 
@@ -34,7 +47,6 @@ The code was tested with Anaconda (Python 3.6) and PyTorch 0.4.1.
     cd models/
     chmod +x download_pretrained_psp_model.sh
     ./download_pretrained_psp_model.sh
-    cd ..
     ```
 
 3. Set the paths in ```mypath.py```, so that they point to the appropriate locations of PASCAL/SBD/DAVIS/CityScapes dataset.
@@ -100,15 +112,7 @@ The model ckeckpoint on Cityscapes dataset can be found [here](http://www.cs.tor
 
 -----------------------------------------------------------
 
-If you find this code helpful, please consider citing 
-```
-@inproceedings{DELSE2019,
-title={Object Instance Annotation with Deep Extreme Level Set Evolution},
-author={Zian Wang and David Acuna and Huan Ling and Amlan Kar and Sanja Fidler},
-booktitle={CVPR},
-year={2019}
-}
-```
+
 
 If you have questions with this code, please contact zianwang@cs.toronto.edu.
 We would like to thank [DEXTR](https://github.com/scaelles/DEXTR-PyTorch) for releasing their code. 
