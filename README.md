@@ -18,7 +18,9 @@ This is the PyTorch implementation of DELSE model for object instance segmentati
 -->
 
 ## Where is the code?
-To get the code, please sign up [here](http://www.cs.toronto.edu/delse/code_signup/). We will be using GitHub to keep track of issues with the code and to update on availability of newer versions (also available on website and through e-mail to signed up users). 
+~~To get the code, please sign up [here](http://www.cs.toronto.edu/delse/code_signup/). We will be using GitHub to keep track of issues with the code and to update on availability of newer versions (also available on website and through e-mail to signed up users).~~
+
+The code sign-up server was down. Please contact zianwang@cs.toronto.edu for access. 
 
 If you find this code helpful, please consider citing 
 
